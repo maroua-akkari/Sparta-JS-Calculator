@@ -13,9 +13,17 @@ if (calculatorType.toLowerCase() == "a") {
   alert("You are now using an advanced calculator");
 } else alert("Please enter type of calculator");
 
+// if (calculatorType.toLowerCase() == "b") {
+//   alert(powerOf);
+// } else alert("try again");
+
+
+
 var firstNumber = prompt("Enter your first number");
 var operator = prompt("Which operator would you like to use? +/*-");
 var secondNumber = prompt("Enter your second number");
+
+
 
 
 switch (operator) {
@@ -34,3 +42,6 @@ switch (operator) {
   default:
      alert("try again");
 }
+
+// var powerOf = prompt("Enter to which power")
+// var powerOfResult = Math.pow(parseInt(firstNumber), parseInt(secondNumber));
